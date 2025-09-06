@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Simple Navigation</title>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta content="telephone=no,email=no" name="format-detection">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+	<meta name="keywords" content="navigation, bookmarks, homepage" />
+	<meta name="description" content="A simple and beautiful customizable navigation homepage" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- 注意！为了优化网站访问速度建议您使用CDN存储下方两行的静态资源，此处引用的是本地资源 -->
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/yidong.css" />
+	<!-- 本项目开源地址：https://github.com/appexplore/jianavi 请勿完全抄袭源码，请勿声明自己是原创 -->
+</head>
+
+<body>
+
+	<!-- 搜索栏start -->
+	<div class="baidu baidu-2">
+		<form name="f" action="https://www.google.com/search" target="_blank">
+			<div class="Select-box-2" id="baidu">
+				<ul>
+					<li class="this_s">Google</li>
+					<li class="miji_s">DuckDuckGo</li>
+					<li class="bing_s">Bing</li>
+					<li class="google_s">Yahoo</li>
+					<li class="baidu_s">Yandex</li>
+				</ul>
+			</div>
+			<div class="in5">
+				<input name="q" id="kw-2" maxlength="100" autocomplete="off" type="text">
+				<div class="qingkong" id="qingkong" title="Clear">x</div>
+			</div>
+			<input value="Search" id="su-2" type="submit">
+		</form>
+		<ul class="keylist"></ul>
+	</div>
+	<!-- 搜索栏end -->
+
+	<!-- 内容start -->
+	<div class="body">
+		<div class="content">
+			<div class="jianjie">
+				<div class="jj-list">
+					<div class="jj-list-tit">Study & Life</div>
+					<ul class="jj-list-con">
+						<li><a href="https://www.google.com/" class="link-3" target="_blank" rel="nofollow">Google</a></li>
+						<li><a href="https://www.amazon.com/" class="link-3" target="_blank" rel="nofollow">Amazon</a></li>
+						<li><a href="https://www.ebay.com/" class="link-3" target="_blank" rel="nofollow">eBay</a></li>
+						<li><a href="https://www.walmart.com/" class="link-3" target="_blank" rel="nofollow">Walmart</a></li>
+						<li><a href="https://www.target.com/" class="link-3" target="_blank" rel="nofollow">Target</a></li>
+						<li><a href="https://maps.google.com/" class="link-3" target="_blank" rel="nofollow">Google Maps</a></li>
+						<li><a href="https://maps.apple.com/" class="link-3" target="_blank" rel="nofollow">Apple Maps</a></li>
+						<li><a href="https://mail.google.com/" class="link-3" target="_blank" rel="nofollow">Gmail</a></li>
+						<li><a href="https://outlook.live.com/" class="link-3" target="_blank" rel="nofollow">Outlook</a></li>
+						<li><a href="https://www.khanacademy.org/" class="link-3" target="_blank" rel="nofollow">Khan Academy</a></li>
+						<li><a href="https://www.coursera.org/" class="link-3" target="_blank" rel="nofollow">Coursera</a></li>
+						<li><a href="https://www.edx.org/" class="link-3" target="_blank" rel="nofollow">edX</a></li>
+						<li><a href="https://www.udemy.com/" class="link-3" target="_blank" rel="nofollow">Udemy</a></li>
+						<li><a href="https://www.wikipedia.org/" class="link-3" target="_blank" rel="nofollow">Wikipedia</a></li>
+						<li><a href="https://translate.google.com/" class="link-3" target="_blank" rel="nofollow">Google Translate</a></li>
+						<li><a href="https://www.deepl.com/" class="link-3" target="_blank" rel="nofollow">DeepL</a></li>
+						<li><a href="https://www.booking.com/" class="link-3" target="_blank" rel="nofollow">Booking.com</a></li>
+						<li><a href="https://www.expedia.com/" class="link-3" target="_blank" rel="nofollow">Expedia</a></li>
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">Social & Community</div>
+					<ul class="jj-list-con">
+						<li><a href="https://www.facebook.com/" class="link-3" target="_blank" rel="nofollow">Facebook</a></li>
+						<li><a href="https://twitter.com/" class="link-3" target="_blank" rel="nofollow">Twitter</a></li>
+						<li><a href="https://www.instagram.com/" class="link-3" target="_blank" rel="nofollow">Instagram</a></li>
+						<li><a href="https://www.linkedin.com/" class="link-3" target="_blank" rel="nofollow">LinkedIn</a></li>
+						<li><a href="https://www.reddit.com/" class="link-3" target="_blank" rel="nofollow">Reddit</a></li>
+						<li><a href="https://discord.com/" class="link-3" target="_blank" rel="nofollow">Discord</a></li>
+						<li><a href="https://www.snapchat.com/" class="link-3" target="_blank" rel="nofollow">Snapchat</a></li>
+						<li><a href="https://www.tiktok.com/" class="link-3" target="_blank" rel="nofollow">TikTok</a></li>
+						<li><a href="https://www.pinterest.com/" class="link-3" target="_blank" rel="nofollow">Pinterest</a></li>
+						<li><a href="https://www.youtube.com/" class="link-3" target="_blank" rel="nofollow">YouTube</a></li>
+						<li><a href="https://web.whatsapp.com/" class="link-3" target="_blank" rel="nofollow">WhatsApp</a></li>
+						<li><a href="https://github.com/" class="link-3" target="_blank" rel="nofollow">GitHub</a></li>
+						<li><a href="https://stackoverflow.com/" class="link-3" target="_blank" rel="nofollow">Stack Overflow</a></li>
+						<li><a href="https://www.quora.com/" class="link-3" target="_blank" rel="nofollow">Quora</a></li>
+						<li><a href="https://medium.com/" class="link-3" target="_blank" rel="nofollow">Medium</a></li>
+						<li><a href="https://www.tumblr.com/" class="link-3" target="_blank" rel="nofollow">Tumblr</a></li>
+						<li><a href="https://slack.com/" class="link-3" target="_blank" rel="nofollow">Slack</a></li>
+						<li><a href="https://telegram.org/" class="link-3" target="_blank" rel="nofollow">Telegram</a></li>
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">Media & Entertainment</div>
+					<ul class="jj-list-con">
+						<li><a href="https://www.netflix.com/" class="link-3" target="_blank" rel="nofollow">Netflix</a></li>
+						<li><a href="https://www.hulu.com/" class="link-3" target="_blank" rel="nofollow">Hulu</a></li>
+						<li><a href="https://www.disneyplus.com/" class="link-3" target="_blank" rel="nofollow">Disney+</a></li>
+						<li><a href="https://www.primevideo.com/" class="link-3" target="_blank" rel="nofollow">Prime Video</a></li>
+						<li><a href="https://www.hbomax.com/" class="link-3" target="_blank" rel="nofollow">HBO Max</a></li>
+						<li><a href="https://tv.apple.com/" class="link-3" target="_blank" rel="nofollow">Apple TV+</a></li>
+						<li><a href="https://www.paramountplus.com/" class="link-3" target="_blank" rel="nofollow">Paramount+</a></li>
+						<li><a href="https://www.peacocktv.com/" class="link-3" target="_blank" rel="nofollow">Peacock</a></li>
+						<li><a href="https://www.spotify.com/" class="link-3" target="_blank" rel="nofollow">Spotify</a></li>
+						<li><a href="https://music.apple.com/" class="link-3" target="_blank" rel="nofollow">Apple Music</a></li>
+						<li><a href="https://www.pandora.com/" class="link-3" target="_blank" rel="nofollow">Pandora</a></li>
+						<li><a href="https://soundcloud.com/" class="link-3" target="_blank" rel="nofollow">SoundCloud</a></li>
+						<li><a href="https://www.twitch.tv/" class="link-3" target="_blank" rel="nofollow">Twitch</a></li>
+						<li><a href="https://tv.youtube.com/" class="link-3" target="_blank" rel="nofollow">YouTube TV</a></li>
+						<li><a href="https://www.crunchyroll.com/" class="link-3" target="_blank" rel="nofollow">Crunchyroll</a></li>
+						<li><a href="https://www.funimation.com/" class="link-3" target="_blank" rel="nofollow">Funimation</a></li>
+						<li><a href="https://www.showtime.com/" class="link-3" target="_blank" rel="nofollow">Showtime</a></li>
+						<li><a href="https://www.starz.com/" class="link-3" target="_blank" rel="nofollow">Starz</a></li>
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">News & Discovery</div>
+					<ul class="jj-list-con">
+						<li><a href="https://www.cnn.com/" class="link-3" target="_blank" rel="nofollow">CNN</a></li>
+						<li><a href="https://www.bbc.com/" class="link-3" target="_blank" rel="nofollow">BBC</a></li>
+						<li><a href="https://www.nytimes.com/" class="link-3" target="_blank" rel="nofollow">The New York Times</a></li>
+						<li><a href="https://www.theguardian.com/" class="link-3" target="_blank" rel="nofollow">The Guardian</a></li>
+						<li><a href="https://www.reuters.com/" class="link-3" target="_blank" rel="nofollow">Reuters</a></li>
+						<li><a href="https://apnews.com/" class="link-3" target="_blank" rel="nofollow">Associated Press</a></li>
+						<li><a href="https://www.foxnews.com/" class="link-3" target="_blank" rel="nofollow">Fox News</a></li>
+						<li><a href="https://www.nbcnews.com/" class="link-3" target="_blank" rel="nofollow">NBC News</a></li>
+						<li><a href="https://abcnews.go.com/" class="link-3" target="_blank" rel="nofollow">ABC News</a></li>
+						<li><a href="https://www.cbsnews.com/" class="link-3" target="_blank" rel="nofollow">CBS News</a></li>
+						<li><a href="https://www.npr.org/" class="link-3" target="_blank" rel="nofollow">NPR</a></li>
+						<li><a href="https://www.washingtonpost.com/" class="link-3" target="_blank" rel="nofollow">The Washington Post</a></li>
+						<li><a href="https://www.usatoday.com/" class="link-3" target="_blank" rel="nofollow">USA Today</a></li>
+						<li><a href="https://time.com/" class="link-3" target="_blank" rel="nofollow">Time</a></li>
+						<li><a href="https://www.newsweek.com/" class="link-3" target="_blank" rel="nofollow">Newsweek</a></li>
+						<li><a href="https://www.wsj.com/" class="link-3" target="_blank" rel="nofollow">The Wall Street Journal</a></li>
+						<li><a href="https://www.bloomberg.com/" class="link-3" target="_blank" rel="nofollow">Bloomberg</a></li>
+						<li><a href="https://techcrunch.com/" class="link-3" target="_blank" rel="nofollow">TechCrunch</a></li>
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">Online Tools</div>
+					<ul class="jj-list-con">
+						<li><a href="https://drive.google.com/" class="link-3" target="_blank" rel="nofollow">Google Drive</a></li>
+						<li><a href="https://www.dropbox.com/" class="link-3" target="_blank" rel="nofollow">Dropbox</a></li>
+						<li><a href="https://www.canva.com/" class="link-3" target="_blank" rel="nofollow">Canva</a></li>
+						<li><a href="https://www.figma.com/" class="link-3" target="_blank" rel="nofollow">Figma</a></li>
+						<li><a href="https://trello.com/" class="link-3" target="_blank" rel="nofollow">Trello</a></li>
+						<li><a href="https://slack.com/" class="link-3" target="_blank" rel="nofollow">Slack</a></li>
+						<li><a href="https://zoom.us/" class="link-3" target="_blank" rel="nofollow">Zoom</a></li>
+						<li><a href="https://office.com/" class="link-3" target="_blank" rel="nofollow">Microsoft Office</a></li>
+						<li><a href="https://www.adobe.com/creativecloud.html" class="link-3" target="_blank" rel="nofollow">Adobe Creative Cloud</a></li>
+						<li><a href="https://github.com/" class="link-3" target="_blank" rel="nofollow">GitHub</a></li>
+						<li><a href="https://stackoverflow.com/" class="link-3" target="_blank" rel="nofollow">Stack Overflow</a></li>
+						<li><a href="https://codepen.io/" class="link-3" target="_blank" rel="nofollow">CodePen</a></li>
+						<li><a href="https://jsfiddle.net/" class="link-3" target="_blank" rel="nofollow">JSFiddle</a></li>
+						<li><a href="https://www.grammarly.com/" class="link-3" target="_blank" rel="nofollow">Grammarly</a></li>
+						<li><a href="https://www.notion.so/" class="link-3" target="_blank" rel="nofollow">Notion</a></li>
+						<li><a href="https://evernote.com/" class="link-3" target="_blank" rel="nofollow">Evernote</a></li>
+						<li><a href="https://www.lastpass.com/" class="link-3" target="_blank" rel="nofollow">LastPass</a></li>
+						<li><a href="https://1password.com/" class="link-3" target="_blank" rel="nofollow">1Password</a></li>
+					</ul>
+				</div>
+				<div class="jj-list">
+					<div class="jj-list-tit">Search & Resources</div>
+					<ul class="jj-list-con">
+						<li><a href="https://scholar.google.com/" class="link-3" target="_blank" rel="nofollow">Google Scholar</a></li>
+						<li><a href="https://www.wikipedia.org/" class="link-3" target="_blank" rel="nofollow">Wikipedia</a></li>
+						<li><a href="https://archive.org/" class="link-3" target="_blank" rel="nofollow">Internet Archive</a></li>
+						<li><a href="https://www.wolframalpha.com/" class="link-3" target="_blank" rel="nofollow">Wolfram Alpha</a></li>
+						<li><a href="https://www.khanacademy.org/" class="link-3" target="_blank" rel="nofollow">Khan Academy</a></li>
+						<li><a href="https://www.coursera.org/" class="link-3" target="_blank" rel="nofollow">Coursera</a></li>
+						<li><a href="https://www.edx.org/" class="link-3" target="_blank" rel="nofollow">edX</a></li>
+						<li><a href="https://ocw.mit.edu/" class="link-3" target="_blank" rel="nofollow">MIT OpenCourseWare</a></li>
+						<li><a href="https://online.stanford.edu/" class="link-3" target="_blank" rel="nofollow">Stanford Online</a></li>
+						<li><a href="https://online-learning.harvard.edu/" class="link-3" target="_blank" rel="nofollow">Harvard Online</a></li>
+						<li><a href="https://www.udemy.com/" class="link-3" target="_blank" rel="nofollow">Udemy</a></li>
+						<li><a href="https://www.skillshare.com/" class="link-3" target="_blank" rel="nofollow">Skillshare</a></li>
+						<li><a href="https://www.pluralsight.com/" class="link-3" target="_blank" rel="nofollow">Pluralsight</a></li>
+						<li><a href="https://www.linkedin.com/learning/" class="link-3" target="_blank" rel="nofollow">LinkedIn Learning</a></li>
+						<li><a href="https://www.masterclass.com/" class="link-3" target="_blank" rel="nofollow">MasterClass</a></li>
+						<li><a href="https://www.ted.com/" class="link-3" target="_blank" rel="nofollow">TED</a></li>
+						<li><a href="https://www.researchgate.net/" class="link-3" target="_blank" rel="nofollow">ResearchGate</a></li>
+						<li><a href="https://www.jstor.org/" class="link-3" target="_blank" rel="nofollow">JSTOR</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- 内容end -->
+
+			<!-- 底部版权start -->
+		</div>
+
+		<div class="footer">
+			<div>Copyright © 2025
+				<a href="https://www.appts.cn/" style="color:#ffffff;" target="_blank" rel="nofollow">软件探索 </a>
+				<!-- 开源不易，请保留下方本项目开源地址 -->
+				<a href="https://github.com/appexplore/jianavi" style="color:#ffffff;" target="_blank"
+					rel="nofollow">开源 </a>
+			</div>
+		</div>
+		<!-- 底部版权end -->
+	</div>
+
+	<!-- 注意！为了优化网站访问速度建议您使用CDN存储下方两行的静态资源，此处引用的是本地资源 -->
+	<script type="text/javascript" src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+</body>
+
+</html>
