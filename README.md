@@ -1,63 +1,27 @@
-# jianavi
+🌐 WebAtlas – Online Navigation Website
 
-简约导航开源版，演示地址：https://appexplore.github.io/jianavi/
+WebAtlas is a clean and organized online navigation website designed to help users quickly find popular platforms, tools, and resources across the web.
 
-简约导航最初源自于小呆导航
+✨ Features
 
-因此当简约导航发展到现在，我决定做些什么，于是便有了简约导航开源版
+📚 Study & Life – Quick access to Google, Amazon, eBay, Walmart, Khan Academy, Coursera, and more.
 
-### 界面截图
+👥 Social & Community – Direct links to Facebook, Twitter, Instagram, LinkedIn, Reddit, Discord, GitHub, and more.
 
-https://ae01.alicdn.com/kf/Hf8c6c8b083734fc9bd73e334017995fcK.jpg
+🎬 Media & Entertainment – Browse Netflix, Hulu, Disney+, Spotify, YouTube, Twitch, Crunchyroll, and others.
 
-### 版权事项
+📰 News & Discovery – Stay informed with CNN, BBC, The New York Times, Reuters, Fox News, etc.
 
-除了保留页脚版权信息中本项目的开源地址，其它地方可以随便改，请勿出售
+🛠️ Online Tools – Use Google Drive, Dropbox, Canva, Figma, Trello, Zoom, and more online services.
 
-### 使用说明
+🔍 Search & Resources – Find knowledge via Google Scholar, Wikipedia, Wolfram Alpha, MIT, Stanford, and more.
 
-纯静态网页，下载zip，解压上传到虚拟主机就可以直接访问了
+🎯 Why WebAtlas?
 
-如果需要修改网址可以下载个notepad++ >> https://notepad-plus-plus.org/
+🚀 Fast and user-friendly interface
 
-用它打开index.html就可以愉快的修改了
+🌍 All-in-one gateway to the web
 
-如果您没有网站搭建的经验可以看这篇文章 >> https://zhuanlan.zhihu.com/p/44102948
+📌 Perfect for study, work, and entertainment
 
-需要免费的虚拟主机可以看这篇文章 >> https://zhuanlan.zhihu.com/p/44099866
-
-### 速度优化
-
-如果您托管在GitHub可以使用免费的jsDelivr来优化访问速度（拥有大陆CDN节点）
-
-### 开源计划
-
-目前开源的版本和简约导航正在使用的版本不同，区别在于开源版并不支持自定义，未来简约导航迭代后会开源自定义版（自定义内容保存在本地）
-
-这是一个稳定的版本，可以放心使用
-
-我现在用的版本是：https://www.jianavi.com
-
-### 二次开发
-
-以下是二次开发版本，感谢改进本项目
-
-优化页面显示，增加后台管理：https://github.com/SiverKing/siver_favorite
-
-### 使用者
-
-感谢以下用户使用简约导航开源版并打赏支持
-
-https://yeyihan.eebbk.top/home.html
-
-https://www.huashengmi.top/
-
-http://aclick.cn/
-
-https://arir.xyz/
-
-https://itttdev.com/
-
-hao1069.com
-
-
+WebAtlas is your ultimate web directory — a single page to navigate the internet with ease.
